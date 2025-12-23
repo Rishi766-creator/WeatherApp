@@ -1,18 +1,52 @@
-# React + Vite
+#  Weather App (React + OpenWeather API)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Weather Application** built using **React**, **Vite**, and **Tailwind CSS** that allows users to view real-time weather information based on their **current location** or by **searching for a city**.
 
-Currently, two official plugins are available:
+This project demonstrates clean React architecture, API integration, hooks usage, and responsive UI design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Live Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+-  Fetches weather using **current location (Geolocation API)**
+-  Search weather by **city name**
+-  Displays temperature, weather condition, humidity, and wind speed
+-  Dynamic background based on weather condition
+-  Loading and error state handling
+-  Fully responsive UI
+-  Secure API key handling using `.env`
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React (Hooks)**
+- **Vite**
+- **Tailwind CSS**
+- **OpenWeatherMap API**
+- **JavaScript (ES6+)**
+
+---
+
+##  Project Structure
+
+```bash
+weather-app/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── SearchBar.jsx
+│   │   └── WeatherCard.jsx
+│   ├── hooks/
+│   │   └── weatherApi.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .env
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md

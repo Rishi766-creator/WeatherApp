@@ -6,6 +6,13 @@ This project demonstrates clean React architecture, API integration, hooks usage
 
 ---
 
+
+##  Live Demo
+
+ **View Live Application:**  
+ https://weather-app-psi-ecru-g5u1f1xi2x.vercel.app/
+
+
 ##  Live Features
 
 -  Fetches weather using **current location (Geolocation API)**
